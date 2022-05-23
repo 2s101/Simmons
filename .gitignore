@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+#chisun add
+.DS_store
