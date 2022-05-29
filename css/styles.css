@@ -144,6 +144,11 @@ header .branding {
 #full-nav a:hover, #full-nav a:focus, #full-nav a:active {
 	color: white;
 }
+#full-nav .column {
+	float: left;
+	margin-right: 2%;
+	width: 23%;
+}
 
 .container {
 	margin: 0, auto;
