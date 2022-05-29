@@ -68,7 +68,7 @@ a:hover, a:focus, a:active {
 
 
 /* Header */
-.branding {
+header .branding {
 	color: #9ac9f4;
 	margin-left: 50px 0 0 0;
 	text-align: center;
@@ -149,15 +149,3 @@ nav ol {
 	display: table;
   }
 
-.button {
-	background-color: #4CAF50;
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
-}
