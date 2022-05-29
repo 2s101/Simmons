@@ -85,6 +85,9 @@ header .branding {
 }
 #quick-nav li {
 	border-right: 1px solid #9ac9f4;
+	float: left;
+	margin: 64px 0 0 5px;
+	padding: 0 5px 0 0;
 }
 #quick-nav li:last-of-type {
 	border: none;
@@ -105,8 +108,26 @@ header .branding {
 	font-size: 1.2em;
 }
 
+#main-nav li {
+	border-left: 1px solid #4385c1;
+	text-align: center;
+}
+
+#main-nav li:last-of-type {
+	border-right: 1px solid #4385c1;
+}
+
 #main-nav li:hover {
 	background-color: #002342;
+}
+
+#main-nav a {
+	display: block;
+	padding: .5em 0;
+}
+
+#main-nav a:hover {
+	background-color: #002342
 }
 
 
