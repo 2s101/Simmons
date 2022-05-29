@@ -62,7 +62,7 @@ a:link, a:visited {
 	text-decoration: none;
 }
 a:hover, a:focus, a:active {
-	color: #043867;
+	color: white;
 }
 
 
@@ -111,6 +111,8 @@ header .branding {
 #main-nav li {
 	border-left: 1px solid #4385c1;
 	text-align: center;
+	display: table-cell;
+	width: 1%;
 }
 
 #main-nav li:last-of-type {
